@@ -16,12 +16,26 @@ status-website:
   introMessage: |
     <p>Welcome to the central project hub for <strong>EngineCore</strong> and official releases.</p>
 
-    <h3>📦 EngineCore Platforms & Downloads</h3>
+    <h3>📦 EngineCore Overview & Live Stats</h3>
     <p>
-      <a href="https://www.curseforge.com/minecraft/mc-mods/enginecore" target="_blank"><strong>CurseForge</strong></a> • 
-      <a href="https://modrinth.com/mod/enginecore" target="_blank"><strong>Modrinth</strong></a> • 
-      <a href="https://github.com/xSlimy1/EngineCore" target="_blank"><strong>GitHub Source</strong></a>
+      <strong>CurseForge:</strong> 
+      <a href="https://www.curseforge.com/minecraft/mc-mods/enginecore" target="_blank">View Project</a> — 
+      <img src="https://img.shields.io/curseforge/dt/1662558?style=flat-square&color=f16436&label=Downloads" alt="CurseForge Downloads" style="vertical-align: middle;">
+      &nbsp;|&nbsp;
+      <img src="https://img.shields.io/curseforge/v/1662558?style=flat-square&label=CurseForge%20Version" alt="CurseForge Version" style="vertical-align: middle;">
     </p>
+    <p>
+      <strong>Modrinth:</strong> 
+      <a href="https://modrinth.com/mod/enginecore" target="_blank">View Project</a> — 
+      <img src="https://img.shields.io/modrinth/dt/I2x7mrLL?style=flat-square&color=00af5c&label=Downloads" alt="Modrinth Downloads" style="vertical-align: middle;">
+    </p>
+    <p>
+      <strong>GitHub Source:</strong> 
+      <a href="https://github.com/xSlimy1/EngineCore" target="_blank">Repository & Code</a> — 
+      <img src="https://img.shields.io/github/v/release/xSlimy1/EngineCore?style=flat-square&label=Latest%20Release" alt="GitHub Release" style="vertical-align: middle;">
+    </p>
+
+    <hr style="opacity: 0.2; margin: 16px 0;">
 
     <h3>🎮 Compatibility Matrix</h3>
     <ul>
@@ -30,17 +44,17 @@ status-website:
       <li><strong>License:</strong> Open Source</li>
     </ul>
 
+    <hr style="opacity: 0.2; margin: 16px 0;">
+
     <h3>🛠️ Issues & Bug Reports</h3>
+    <p>Found a bug, crash, or have a suggestion? Submit it directly:</p>
     <p>
-      Found an issue or have an idea? Submit it directly:
-      <br><br>
       <a href="https://github.com/xSlimy1/EngineCore/issues/new?title=%5BBug%5D%3A+" target="_blank">🐛 <strong>Report a Bug / Crash</strong></a> &nbsp;|&nbsp;
       <a href="https://github.com/xSlimy1/EngineCore/issues/new?title=%5BFeature%5D%3A+" target="_blank">💡 <strong>Request a Feature</strong></a> &nbsp;|&nbsp;
       <a href="https://discord.gg/xvsycREEcN" target="_blank">💬 <strong>Discord Support</strong></a>
     </p>
 
-    <hr>
-    <p><em>Only download builds through the verified sources above to ensure file integrity.</em></p>
+    <p style="font-size: 0.9em; opacity: 0.8; margin-top: 15px;"><em>Only download builds through the verified sources above to ensure file integrity.</em></p>
 
   navbar:
     - title: Report Bug
