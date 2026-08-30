@@ -1,7 +1,6 @@
 owner: xSlimy1
 repo: status
 
-# Zu überwachende Endpunkte
 sites:
   - name: EngineCore (GitHub Repository)
     url: https://github.com/xSlimy1/EngineCore
@@ -22,7 +21,7 @@ status-website:
     | :--- | :--- | :--- |
     | **CurseForge** | [CurseForge Project](https://www.curseforge.com/minecraft/mc-mods/enginecore) | ![CurseForge Downloads](https://img.shields.io/curseforge/dt/enginecore?style=flat-square&color=f16436&label=Downloads) |
     | **Modrinth** | [Modrinth Project](https://modrinth.com/mod/enginecore) | ![Modrinth Downloads](https://img.shields.io/modrinth/dt/enginecore?style=flat-square&color=00af5c&label=Downloads) |
-    | **GitHub Source** | [Repository & Issues](https://github.com/xSlimy1/EngineCore) | ![Latest Release](https://img.shields.io/github/v/release/xSlimy1/EngineCore?style=flat-square&label=Latest) |
+    | **GitHub Source** | [Repository](https://github.com/xSlimy1/EngineCore) | ![Latest Release](https://img.shields.io/github/v/release/xSlimy1/EngineCore?style=flat-square&label=Latest) |
 
     ---
     ### 🎮 Compatibility Matrix
@@ -31,8 +30,17 @@ status-website:
     * **Source Code:** Open Source under standard license terms.
 
     ---
+    ### 🛠️ Bug Reports & Feature Requests
+    Found a bug, crash, or have an idea for EngineCore? Submit it directly here:
+    * 🐛 **[Report a Bug / Crash](https://github.com/xSlimy1/EngineCore/issues/new?title=%5BBug%5D%3A+)** (Include your crash logs and Minecraft/Forge version)
+    * 💡 **[Request a Feature](https://github.com/xSlimy1/EngineCore/issues/new?title=%5BFeature%5D%3A+)**
+    * 💬 **[Community Support on Discord](https://discord.gg/xvsycREEcN)** (For quick setup questions)
+
+    ---
     *Only download builds through the verified sources above to ensure file integrity.*
   navbar:
+    - title: Report Bug
+      href: https://github.com/xSlimy1/EngineCore/issues/new?title=%5BBug%5D%3A+
     - title: CurseForge
       href: https://www.curseforge.com/minecraft/mc-mods/enginecore
     - title: Modrinth
