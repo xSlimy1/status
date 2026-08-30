@@ -1,30 +1,45 @@
-# Inhaber und Repository
 owner: xSlimy1
 repo: status
 
-# Zu überwachende Dienste und Seiten
+# Zu überwachende Endpunkte
 sites:
-  - name: EngineCore (CurseForge)
-    url: https://www.curseforge.com/minecraft/mc-mods/enginecore
-  - name: EngineCore (Modrinth)
-    url: https://modrinth.com/mod/enginecore
-  - name: EngineCore (GitHub Source)
+  - name: EngineCore (GitHub Repository)
     url: https://github.com/xSlimy1/EngineCore
-  - name: Discord Invite
+  - name: Discord Server
     url: https://discord.gg/xvsycREEcN
 
-# Dashboard-Konfiguration
 status-website:
   cname: ""
   baseUrl: /status
   logoUrl: https://avatars.githubusercontent.com/xSlimy1
-  name: Da-Slimy Project & Status Tracker
-  introTitle: "**Live Status & Service Tracker**"
-  introMessage: "Real-time uptime, API health, and status monitor for all official Da-Slimy mods, platforms, and services."
+  name: Da-Slimy Developer & Mod Hub
+  introTitle: "Official Mod Hub & Resource Tracker"
+  introMessage: |
+    Welcome to the central project hub for **EngineCore** and official releases.
+
+    ### 📦 EngineCore Overview & Live Stats
+    | Platform | Link | Status / Downloads |
+    | :--- | :--- | :--- |
+    | **CurseForge** | [CurseForge Project](https://www.curseforge.com/minecraft/mc-mods/enginecore) | ![CurseForge Downloads](https://img.shields.io/curseforge/dt/enginecore?style=flat-square&color=f16436&label=Downloads) |
+    | **Modrinth** | [Modrinth Project](https://modrinth.com/mod/enginecore) | ![Modrinth Downloads](https://img.shields.io/modrinth/dt/enginecore?style=flat-square&color=00af5c&label=Downloads) |
+    | **GitHub Source** | [Repository & Issues](https://github.com/xSlimy1/EngineCore) | ![Latest Release](https://img.shields.io/github/v/release/xSlimy1/EngineCore?style=flat-square&label=Latest) |
+
+    ---
+    ### 🎮 Compatibility Matrix
+    * **Mod Loader:** Minecraft Forge
+    * **Supported / Target Versions:** `1.20.1` • `1.20.2` • `1.20.4` • `1.20.6`
+    * **Source Code:** Open Source under standard license terms.
+
+    ---
+    *Only download builds through the verified sources above to ensure file integrity.*
   navbar:
+    - title: CurseForge
+      href: https://www.curseforge.com/minecraft/mc-mods/enginecore
+    - title: Modrinth
+      href: https://modrinth.com/mod/enginecore
     - title: GitHub
-      href: https://github.com/xSlimy1
-    - title: Patreon
-      href: https://patreon.com/Da_Slimy
+      href: https://github.com/xSlimy1/EngineCore
     - title: Discord
       href: https://discord.gg/xvsycREEcN
+    - title: Patreon
+      href: https://patreon.com/Da_Slimy
