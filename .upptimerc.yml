@@ -14,30 +14,34 @@ status-website:
   name: Da-Slimy Developer & Mod Hub
   introTitle: "Official Mod Hub & Resource Tracker"
   introMessage: |
-    Welcome to the central project hub for **EngineCore** and official releases.
+    <p>Welcome to the central project hub for <strong>EngineCore</strong> and official releases.</p>
 
-    ### 📦 EngineCore Overview & Live Stats
-    | Platform | Link | Status / Downloads |
-    | :--- | :--- | :--- |
-    | **CurseForge** | [CurseForge Project](https://www.curseforge.com/minecraft/mc-mods/enginecore) | ![CurseForge Downloads](https://img.shields.io/curseforge/dt/enginecore?style=flat-square&color=f16436&label=Downloads) |
-    | **Modrinth** | [Modrinth Project](https://modrinth.com/mod/enginecore) | ![Modrinth Downloads](https://img.shields.io/modrinth/dt/enginecore?style=flat-square&color=00af5c&label=Downloads) |
-    | **GitHub Source** | [Repository](https://github.com/xSlimy1/EngineCore) | ![Latest Release](https://img.shields.io/github/v/release/xSlimy1/EngineCore?style=flat-square&label=Latest) |
+    <h3>📦 EngineCore Platforms & Downloads</h3>
+    <p>
+      <a href="https://www.curseforge.com/minecraft/mc-mods/enginecore" target="_blank"><strong>CurseForge</strong></a> • 
+      <a href="https://modrinth.com/mod/enginecore" target="_blank"><strong>Modrinth</strong></a> • 
+      <a href="https://github.com/xSlimy1/EngineCore" target="_blank"><strong>GitHub Source</strong></a>
+    </p>
 
-    ---
-    ### 🎮 Compatibility Matrix
-    * **Mod Loader:** Minecraft Forge
-    * **Supported / Target Versions:** `1.20.1` • `1.20.2` • `1.20.4` • `1.20.6`
-    * **Source Code:** Open Source under standard license terms.
+    <h3>🎮 Compatibility Matrix</h3>
+    <ul>
+      <li><strong>Mod Loader:</strong> Minecraft Forge</li>
+      <li><strong>Supported Versions:</strong> <code>1.20.1</code> • <code>1.20.2</code> • <code>1.20.4</code> • <code>1.20.6</code></li>
+      <li><strong>License:</strong> Open Source</li>
+    </ul>
 
-    ---
-    ### 🛠️ Bug Reports & Feature Requests
-    Found a bug, crash, or have an idea for EngineCore? Submit it directly here:
-    * 🐛 **[Report a Bug / Crash](https://github.com/xSlimy1/EngineCore/issues/new?title=%5BBug%5D%3A+)** (Include your crash logs and Minecraft/Forge version)
-    * 💡 **[Request a Feature](https://github.com/xSlimy1/EngineCore/issues/new?title=%5BFeature%5D%3A+)**
-    * 💬 **[Community Support on Discord](https://discord.gg/xvsycREEcN)** (For quick setup questions)
+    <h3>🛠️ Issues & Bug Reports</h3>
+    <p>
+      Found an issue or have an idea? Submit it directly:
+      <br><br>
+      <a href="https://github.com/xSlimy1/EngineCore/issues/new?title=%5BBug%5D%3A+" target="_blank">🐛 <strong>Report a Bug / Crash</strong></a> &nbsp;|&nbsp;
+      <a href="https://github.com/xSlimy1/EngineCore/issues/new?title=%5BFeature%5D%3A+" target="_blank">💡 <strong>Request a Feature</strong></a> &nbsp;|&nbsp;
+      <a href="https://discord.gg/xvsycREEcN" target="_blank">💬 <strong>Discord Support</strong></a>
+    </p>
 
-    ---
-    *Only download builds through the verified sources above to ensure file integrity.*
+    <hr>
+    <p><em>Only download builds through the verified sources above to ensure file integrity.</em></p>
+
   navbar:
     - title: Report Bug
       href: https://github.com/xSlimy1/EngineCore/issues/new?title=%5BBug%5D%3A+
