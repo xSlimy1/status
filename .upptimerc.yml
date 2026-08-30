@@ -1,23 +1,32 @@
+# Inhaber und Repository
 owner: xSlimy1
 repo: status
 
+# Zu überwachende Dienste und Seiten
 sites:
-  - name: EngineCore Repository
+  - name: EngineCore (CurseForge)
+    url: https://www.curseforge.com/minecraft/mc-mods/enginecore
+  - name: EngineCore (Modrinth)
+    url: https://modrinth.com/mod/enginecore
+  - name: EngineCore (GitHub Source)
     url: https://github.com/xSlimy1/EngineCore
-  - name: CurseForge Page
-    url: https://www.curseforge.com
   - name: Discord Invite
-    url: https://discord.gg
+    url: https://discord.gg/xvsycREEcN
+  - name: Patreon Page
+    url: https://patreon.com/Da_Slimy
 
+# Dashboard-Konfiguration
 status-website:
   cname: ""
   baseUrl: /status
   logoUrl: https://avatars.githubusercontent.com/xSlimy1
   name: Da-Slimy Project & Status Tracker
   introTitle: "**Live Status & Service Tracker**"
-  introMessage: "Real-time uptime, API health, and status monitor for all Da-Slimy mods, tools, and services."
+  introMessage: "Real-time uptime, API health, and status monitor for all official Da-Slimy mods, platforms, and services."
   navbar:
     - title: GitHub
       href: https://github.com/xSlimy1
     - title: Patreon
       href: https://patreon.com/Da_Slimy
+    - title: Discord
+      href: https://discord.gg/xvsycREEcN
