@@ -12,8 +12,6 @@ sites:
     url: https://github.com/xSlimy1/EngineCore
   - name: Discord Invite
     url: https://discord.gg/xvsycREEcN
-  - name: Patreon Page
-    url: https://patreon.com/Da_Slimy
 
 # Dashboard-Konfiguration
 status-website:
